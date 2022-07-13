@@ -5,7 +5,8 @@ public class Customer {
 	int customerId;
 	String customerName;
 	int customerAge;
-	int customernum;
+	int customeremail();
+
 	
 	public int getCustomerAge() {
 		return customerAge;
