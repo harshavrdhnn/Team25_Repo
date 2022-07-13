@@ -4,6 +4,15 @@ public class Customer {
 	
 	int customerId;
 	String customerName;
+	int customerAge;
+	int customernum;
+	
+	public int getCustomerAge() {
+		return customerAge;
+	}
+	public void setCustomerAge(int customerAge) {
+		this.customerAge = customerAge;
+	}
 	public int getCustomerId() {
 		return customerId;
 	}
